@@ -7,12 +7,34 @@
 
 import SwiftUI
 
-struct ToDoListItemsView: View {
+struct ToDoListView: View {
+    @StateObject var viewModel = ToDoListViewViewModel()
+    
+    private let userId: String
+    
+    init(userId: String) {
+        self.userId = userId
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                
+            }
+            .navigationTitle("To Do List")
+            .toolbar {
+                Button {
+                    // Action
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
     }
 }
 
-#Preview {
-    ToDoListItemsView()
+struct ToDoListItemsView_Previews: PreviewProvider {
+    static var previews: some View {
+        ToDoListView(userId: "")
+    }
 }

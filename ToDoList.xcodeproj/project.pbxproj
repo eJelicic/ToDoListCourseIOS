@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD588A652B4EB348002ABC3B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD588A642B4EB348002ABC3B /* Extensions.swift */; };
 		AD90B1FE2B49BB750055DCB6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90B1FD2B49BB750055DCB6 /* ProfileView.swift */; };
 		AD90B2002B49BB870055DCB6 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90B1FF2B49BB870055DCB6 /* ToDoListView.swift */; };
 		AD90B2022B49BB9C0055DCB6 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90B2012B49BB9C0055DCB6 /* NewItemView.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD588A642B4EB348002ABC3B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AD90B1FD2B49BB750055DCB6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AD90B1FF2B49BB870055DCB6 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		AD90B2012B49BB9C0055DCB6 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				ADAF95C72B3F08ED003AF8D5 /* Assets.xcassets */,
 				ADAF95C32B3F08ED003AF8D5 /* ToDoListApp.swift */,
 				ADAF95F42B404748003AF8D5 /* GoogleService-Info.plist */,
+				AD588A642B4EB348002ABC3B /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				ADAF95C42B3F08ED003AF8D5 /* ToDoListApp.swift in Sources */,
 				AD90B2102B4AB7BF0055DCB6 /* ToDoListViewViewModel.swift in Sources */,
 				AD90B20E2B4AB7AE0055DCB6 /* ProfileViewViewModel.swift in Sources */,
+				AD588A652B4EB348002ABC3B /* Extensions.swift in Sources */,
 				AD90B2022B49BB9C0055DCB6 /* NewItemView.swift in Sources */,
 				AD90B20C2B4AB7A00055DCB6 /* MainViewViewModel.swift in Sources */,
 				AD90B2182B4AB9EE0055DCB6 /* LoginView.swift in Sources */,
